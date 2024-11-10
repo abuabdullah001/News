@@ -76,7 +76,7 @@
 
                 <div class="navbar-nav mr-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    
+
                     @php
                     $categories = App\Models\Category::all();
                 @endphp

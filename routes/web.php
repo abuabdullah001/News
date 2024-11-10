@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
@@ -11,6 +12,21 @@ use App\Http\Controllers\SubcategoryController;
 
 
 
+=======
+use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+>>>>>>> 4484e7983233b39dbb9af0cef42e73c134b19e33
 
 Route::get('/', function () {
     return view('welcome');
@@ -41,6 +57,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+<<<<<<< HEAD
 
 
 
@@ -80,3 +97,5 @@ Route::delete('post/delete{id}',[PostController::class,'post_delete'])->name('po
 
 
 
+=======
+>>>>>>> 4484e7983233b39dbb9af0cef42e73c134b19e33
